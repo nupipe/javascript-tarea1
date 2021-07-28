@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: -80px 0 0 0;
+  background-color: lightgrey;
+}
+
+/* ------------- CONTENT ----------- */
+.content-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.section-container {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTACT */
+
+.contact-container {
+  display: flex;
+  margin-top: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.title-contact {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: dimgray;
+  margin-bottom: 24px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.formulario-container {
+  display: flex;
+  width: 350px;
+  margin: 10px 0 10px 0;
+  flex-direction: column;
+}
+
+.send-button-container {
+  margin-top: 24px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: darkgrey;
+  transition: 0.2s ease-out;
+}
+
+.send-button-container:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+  background-color: cadetblue;
+}
+
+.send-button-text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.input {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: dimgrey;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-color: darkgrey;
+  border-width: 2px;
+}
+
+.input-correct {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: dimgrey;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-color: green;
+  border-width: 3px;
+}
+
+.input-wrong {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: dimgrey;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-color: red;
+  border-width: 3px;
+}
+
+.error {
+  display: none;
+}
+
+.error-display {
+  border-radius: 5px;
+  margin: 0 0 15px 0;
+  color: red;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
